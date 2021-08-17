@@ -35,6 +35,9 @@ namespace HashTableDemo
             mapNode.GetFrequence("paranoid");
             mapNode.DisplayFrequency();
 
+            mapNode.Remove("avoidable");
+            mapNode.GetFrequence("avoidable");
+
         }
     }
 }
